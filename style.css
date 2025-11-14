@@ -30,6 +30,9 @@ p {
     scale: 0 1;
     animation: analitzador linear;
     animation-timeline: scroll();
+    -webkit-animation-timeline: scroll();
+       -moz-animation-timeline: scroll();
+            animation-timeline: scroll();
 }
 
 @keyframes analitzador {
